@@ -114,7 +114,7 @@ publish_pages_branch() {
 
   # Limpa o worktree (exceto .git) e copia o site gerado
   find "$WORKTREE" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-  rsync -a --delete --exclude '.git' "$ROOT/site/" "$WORKTREE/"
+  cp -a "$ROOT/site/." "$WORKTREE/"
   touch "$WORKTREE/.nojekyll"
 
   git -C "$WORKTREE" add -A
