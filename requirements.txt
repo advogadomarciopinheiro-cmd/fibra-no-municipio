@@ -1,0 +1,4 @@
+# pandas is used if available; the scripts also work with the stdlib csv module as fallback.
+# pandas>=2.0
+# Optional, for screenshots:
+# playwright>=1.40

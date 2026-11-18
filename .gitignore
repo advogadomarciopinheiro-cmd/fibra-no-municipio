@@ -1,0 +1,9 @@
+data/raw/
+site/
+.gh-pages/
+screenshots/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.log
