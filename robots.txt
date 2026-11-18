@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://advogadomarciopinheiro-cmd.github.io/fibra-no-municipio/sitemap.xml
